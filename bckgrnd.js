@@ -1,10 +1,3 @@
-//  Щёлк мышкой - волны расходятся, изменяя движение элементов              https://editor.p5js.org/coloringchaos/sketches/SkZVaxF0-
-//  Засветка фона разнородная в зависимости от дальности от эпицентра
-//  Отображение движения мышки
-//  Звук взрыва        https://p5js.org/examples/sound-load-and-play-sound.html
-//  Набор массы как свет            https://p5js.org/examples/simulate-smokeparticles.html
-//          https://p5js.org/examples/simulate-chain.html
-//              https://p5js.org/examples/simulate-penrose-tiles.html
 const elements = [];
 const explosions = [];
 let maxSpeed = 3, radius, value;
@@ -132,34 +125,3 @@ function mouseClicked() {
         }
     });
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
