@@ -108,8 +108,9 @@ class Explosion {
         elements.forEach(el => {
             value = Math.hypot(this.x - el.x, this.y - el.y);
             if (value < radius) {
-                el.speedX = (el.x - this.x) / 5;
-                el.speedY = (el.y - this.y) / 5;
+                value = radius / value;
+                el.speedX = (el.x - this.x) / (10 / value);
+                el.speedY = (el.y - this.y) / (10 / value);
             }
         });
     }
